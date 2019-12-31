@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="management-base" />
+        <module name="management-cat" />
+        <module name="model-base" />
+        <module name="model-cat" />
+        <module name="service-base" />
+        <module name="service-cat" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="management" target="1.8" />
+      <module name="management-base" target="1.8" />
+      <module name="management-cat" target="1.8" />
+      <module name="model" target="1.8" />
+      <module name="model-base" target="1.8" />
+      <module name="model-cat" target="1.8" />
+      <module name="service" target="1.8" />
+      <module name="service-base" target="1.8" />
+      <module name="service-cat" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="management-base" options="-parameters" />
+      <module name="management-cat" options="-parameters" />
+      <module name="model-base" options="-parameters" />
+      <module name="model-cat" options="-parameters" />
+      <module name="service-base" options="-parameters" />
+      <module name="service-cat" options="-parameters" />
+    </option>
+  </component>
+</project>
