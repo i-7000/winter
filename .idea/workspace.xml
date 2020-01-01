@@ -2,71 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1664162c-ba70-4df9-8acc-73030f6ff2dc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/model/model-base/model-base.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/model-cat/model-cat.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/model-cat/src/main/java/com/cdutcm3/winter/model/cat/vo/req/CatReqVO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/management/management-base/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/management/management-base/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/management/management-base/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/management/management-base/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/management/management-base/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/management/management-base/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/management/management-base/src/test/java/com/cdutcm3/winter/management/base/ManagementBaseApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/management/management-cat/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/management/management-cat/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/management/management-cat/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/management/management-cat/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/management/management-cat/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/management/management-cat/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/management/management-cat/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/management/management-cat/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/management/management-cat/src/main/java/com/cdutcm3/winter/management/cat/ManagementCatApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/management/management-cat/src/main/java/com/cdutcm3/winter/management/cat/ManagementCatApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/management/management-cat/src/test/java/com/cdutcm3/winter/management/cat/ManagementCatApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/management/management.iml" beforeDir="false" afterPath="$PROJECT_DIR$/management/management.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/management/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/management/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/management/src/site/apt/index.apt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/management/src/site/markdown/markdown-velocity.md.vm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/management/src/site/markdown/markdown.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/management/src/site/site.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/model-base/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/model-base/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/model-base/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/model-base/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/model-base/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/model-base/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/model-base/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/model/model-base/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/model-base/src/main/java/com/cdutcm3/winter/model/base/ModelBaseApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/model-base/src/test/java/com/cdutcm3/winter/model/base/ModelBaseApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/model-cat/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/model-cat/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/model-cat/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/model-cat/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/model-cat/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/model-cat/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/model-cat/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/model/model-cat/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/model-cat/src/main/java/com/cdutcm3/winter/model/cat/ModelCatApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/model-cat/src/test/java/com/cdutcm3/winter/model/cat/ModelCatApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/model.iml" beforeDir="false" afterPath="$PROJECT_DIR$/model/model.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/model/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service-base/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service-base/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service-base/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service-base/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service-base/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service-base/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service-base/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-base/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service-base/src/main/java/com/cdutcm3/winter/service/base/ServiceBaseApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service-cat/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service-cat/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service-cat/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service-cat/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service-cat/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service-cat/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service-cat/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-cat/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service-cat/src/main/java/com/cdutcm3/winter/service/cat/ServiceCatApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-cat/src/main/java/com/cdutcm3/winter/ms/cat/ServiceCatApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/service/service.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/management/target/" />
     <ignored path="$PROJECT_DIR$/management/management-base/target/" />
@@ -103,10 +40,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service/service-cat/src/main/java/com/cdutcm3/winter/ms/cat/service/CatService.java">
+        <entry file="file://$PROJECT_DIR$/service/service-cat/src/main/java/com/cdutcm3/winter/ms/cat/service/impl/CatServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="201">
-              <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+            <state relative-caret-position="137">
+              <caret line="47" column="32" lean-forward="true" selection-start-line="47" selection-start-column="32" selection-end-line="47" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -115,13 +52,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/service/service-cat/src/main/java/com/cdutcm3/winter/ms/cat/service/impl/CatServiceImpl.java">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="54" selection-start-line="54" selection-end-line="54" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="247">
+              <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -162,15 +96,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-core/5.2.2.RELEASE/spring-core-5.2.2.RELEASE.jar!/org/springframework/cglib/proxy/MethodProxy.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="93">
-              <caret line="104" selection-start-line="104" selection-end-line="104" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/service/service-cat/src/main/java/com/cdutcm3/winter/ms/cat/transfer/CatMapper.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="194">
@@ -199,6 +124,15 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="11" column="9" lean-forward="true" selection-end-line="12" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -283,6 +217,8 @@
         <option value="$PROJECT_DIR$/service/service-cat/src/main/resources/application-dev.yml" />
         <option value="$PROJECT_DIR$/service/pom.xml" />
         <option value="$PROJECT_DIR$/service/service-cat/src/main/java/com/cdutcm3/winter/ms/cat/transfer/CatMapper.java" />
+        <option value="$PROJECT_DIR$/service/.gitignore" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -314,117 +250,6 @@
               <item name="winter" type="b2602c69:ProjectViewProjectNode" />
               <item name="winter" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="winter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="winter" type="462c0819:PsiDirectoryNode" />
-              <item name="management" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="winter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="winter" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="winter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="winter" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="winter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="winter" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="service-base" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="winter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="winter" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="service-cat" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="winter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="winter" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="service-cat" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="winter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="winter" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="service-cat" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="winter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="winter" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="service-cat" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="winter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="winter" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="service-cat" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="cdutcm3" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="winter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="winter" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="service-cat" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="cdutcm3" type="462c0819:PsiDirectoryNode" />
-              <item name="winter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="winter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="winter" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="service-cat" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="cdutcm3" type="462c0819:PsiDirectoryNode" />
-              <item name="winter" type="462c0819:PsiDirectoryNode" />
-              <item name="ms" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="winter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="winter" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="service-cat" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="cdutcm3" type="462c0819:PsiDirectoryNode" />
-              <item name="winter" type="462c0819:PsiDirectoryNode" />
-              <item name="ms" type="462c0819:PsiDirectoryNode" />
-              <item name="cat" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="winter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="winter" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="service-cat" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="cdutcm3" type="462c0819:PsiDirectoryNode" />
-              <item name="winter" type="462c0819:PsiDirectoryNode" />
-              <item name="ms" type="462c0819:PsiDirectoryNode" />
-              <item name="cat" type="462c0819:PsiDirectoryNode" />
-              <item name="transfer" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -440,7 +265,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1577864256497" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1577864837840" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/service/service-base/src/main/java/com/cdutcm3/winter/ms/base/dao/mysql/jpa" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -516,12 +341,27 @@
       <option name="presentableId" value="Default" />
       <updated>1577816203897</updated>
       <workItem from="1577816205381" duration="20652000" />
-      <workItem from="1577862201900" duration="2002000" />
+      <workItem from="1577862201900" duration="2612000" />
     </task>
+    <task id="LOCAL-00001" summary="1. 删除不用的文件&#10;2. 集成jpa，spring boot spring cloud swagger 等组件，微服务暂时可以跑起来">
+      <created>1577864375831</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1577864375831</updated>
+    </task>
+    <task id="LOCAL-00002" summary="添加git忽略文件">
+      <created>1577864706682</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1577864706682</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22654000" />
+    <option name="totallyTimeSpent" value="23264000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -534,9 +374,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="23" width="1550" height="848" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49860334" visible="true" weight="0.24731903" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49860334" visible="true" weight="0.24731903" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -564,7 +403,7 @@
       <window_info anchor="bottom" id="Docker" order="17" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="18" weight="0.32960895" />
       <window_info anchor="bottom" id="Debug with VisualVM" order="19" />
-      <window_info active="true" anchor="bottom" id="Run Dashboard" order="20" visible="true" weight="0.38547486" />
+      <window_info anchor="bottom" id="Run Dashboard" order="20" visible="true" weight="0.38547486" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -585,6 +424,11 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1. 删除不用的文件&#10;2. 集成jpa，spring boot spring cloud swagger 等组件，微服务暂时可以跑起来" />
+    <MESSAGE value="添加git忽略文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加git忽略文件" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -604,28 +448,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/model/model-base/src/main/java/com/cdutcm3/winter/model/base/exception/ExceptionType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="108" selection-start-line="21" selection-start-column="108" selection-end-line="21" selection-end-column="108" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/model-base/src/main/java/com/cdutcm3/winter/model/base/exception/BusinessSilentException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-537">
-          <caret line="14" column="75" selection-start-line="14" selection-start-column="75" selection-end-line="14" selection-end-column="75" />
-          <folding>
-            <element signature="e#894#895#0" expanded="true" />
-            <element signature="e#936#937#0" expanded="true" />
-            <element signature="e#1753#1754#0" expanded="true" />
-            <element signature="e#1785#1786#0" expanded="true" />
-            <element signature="e#1856#1857#0" expanded="true" />
-            <element signature="e#1895#1896#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/model/model-cat/src/main/java/com/cdutcm3/winter/model/cat/exception/CatExceptionType.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
@@ -983,11 +805,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/service/service-cat/src/main/java/com/cdutcm3/winter/ms/cat/service/impl/CatServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="54" selection-start-line="54" selection-end-line="54" />
+        <state relative-caret-position="137">
+          <caret line="47" column="32" lean-forward="true" selection-start-line="47" selection-start-column="32" selection-end-line="47" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="9" lean-forward="true" selection-end-line="12" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
         </state>
       </provider>
     </entry>

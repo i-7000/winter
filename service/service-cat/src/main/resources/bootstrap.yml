@@ -1,0 +1,13 @@
+spring:
+  application:
+    active: dev
+    name: service-cat
+  profiles:
+    active: dev
+#  cloud:
+#    config:
+#      uri: ${CONFIG_SERVER:http://localhost:9988}
+logging:
+  config: classpath:logback.xml
+  level:
+    root: info
