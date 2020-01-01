@@ -17,7 +17,26 @@
 
 
     <dependencies>
+        <dependency>
+            <groupId>com.cdutcm3.winter</groupId>
+            <artifactId>model-cat</artifactId>
+            <version>1.0.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.cdutcm3.winter</groupId>
+            <artifactId>service-base</artifactId>
+            <version>1.0.0-SNAPSHOT</version>
+        </dependency>
 
+        <dependency>
+            <groupId>com.google.code.gson</groupId>
+            <artifactId>gson</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-context</artifactId>
+        </dependency>
     </dependencies>
 
     <build>
