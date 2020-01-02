@@ -29,6 +29,7 @@
     <modules>
         <module>model-base</module>
         <module>model-cat</module>
+        <module>model-i7000</module>
     </modules>
 
 
