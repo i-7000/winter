@@ -29,17 +29,19 @@ import javax.persistence.Table;
 public class GoodsSnapshot extends BaseEntity {
 
     /**
-     * 商品系列Code
+     * 商品名称
      */
-    @Column(columnDefinition = "varchar(32) comment '商品系列Code'")
-    private String goodsSeriesCode;
+    @Column(columnDefinition = "varchar(100) comment '商品名称'")
+    private String goodsName;
+
+    @Column(columnDefinition = "varchar(32) comment '供应商编码'")
+    private String goodsCode;
 
     /**
-     * 系列名称
+     * 国际条码
      */
-    @Column(columnDefinition = "varchar(100) comment '商品系列名称'")
-    private String seriesName;
-
+    @Column(columnDefinition = "varchar(32) comment '国际条码'")
+    private String barCode;
 
     /**
      * 产区
@@ -73,24 +75,10 @@ public class GoodsSnapshot extends BaseEntity {
     private String supplierCode;
 
     /**
-     * 删除标记() 是否关闭发布  关闭：true
+     * 删除标记()  true: 删除；false:未删除
      */
-    private boolean deleted = false;
-
-    /**
-     * 商品名称
-     */
-    @Column(columnDefinition = "varchar(100) comment '商品名称'")
-    private String goodsName;
-
-    @Column(columnDefinition = "varchar(32) comment '供应商编码'")
-    private String goodsCode;
+    private Boolean deleted = Boolean.FALSE;
 
 
-    /**
-     * 国际条码
-     */
-    @Column(columnDefinition = "varchar(32) comment '国际条码'")
-    private String barCode;
 
 }

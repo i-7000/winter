@@ -1,6 +1,8 @@
 package com.cdutcm3.winter.ms.i7000.service;
 
 import com.cdutcm3.winter.model.cat.vo.resp.CatRespVO;
+import com.cdutcm3.winter.model.i7000.vo.req.GoodsSnapshotQuery;
+import com.cdutcm3.winter.model.i7000.vo.resp.GoodsSnapshotRespVO;
 
 /**
  * *****************************************************
@@ -20,4 +22,16 @@ public interface GoodsSnapshotService {
      * @return
      */
     CatRespVO findCatById(Long id);
+
+    /**
+     * 保存商品快照
+     */
+    void saveGoodsSnapshot();
+
+    /**
+     * 查询商品快照
+     * @param query
+     * @return
+     */
+    GoodsSnapshotRespVO findGoodsSnapshot(GoodsSnapshotQuery query);
 }

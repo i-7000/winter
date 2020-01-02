@@ -1,15 +1,14 @@
 package com.cdutcm3.winter.ms.i7000.api;
 
 import com.cdutcm3.winter.model.cat.vo.resp.CatRespVO;
+import com.cdutcm3.winter.model.i7000.vo.req.GoodsSnapshotQuery;
+import com.cdutcm3.winter.model.i7000.vo.resp.GoodsSnapshotRespVO;
 import com.cdutcm3.winter.ms.i7000.service.GoodsSnapshotService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiParam;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
 
@@ -39,5 +38,17 @@ public class GoodsSnapshotApiController {
     @GetMapping("/findCatById")
     public CatRespVO findCatById(@ApiParam(example = "1",name = "id") @RequestParam("id")Long id){
         return goodsSnapshotService.findCatById(id);
+    }
+
+    @ApiOperation(value = "保存商品快照", notes = DEVELOPER + "7000" + BR + "保存商品快照")
+    @PostMapping("/saveGoodsSnapshot")
+    public void saveGoodsSnapshot(){
+        goodsSnapshotService.saveGoodsSnapshot();
+    }
+
+    @ApiOperation(value = "查询商品快照", notes = DEVELOPER + "7000" + BR + "查询商品快照")
+    @PostMapping("/findGoodsSnapshot")
+    public GoodsSnapshotRespVO findGoodsSnapshot(@RequestBody GoodsSnapshotQuery query){
+        return goodsSnapshotService.findGoodsSnapshot(query);
     }
 }
