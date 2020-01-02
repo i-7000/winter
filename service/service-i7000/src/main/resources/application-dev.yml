@@ -1,0 +1,59 @@
+server:
+  port: 7002
+spring:
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    timeout: 5000
+    password: master
+    database: 0
+  jpa:
+    database: mysql
+    generate-ddl: true
+    open-in-view: false
+    hibernate:
+      ddl-auto: update
+      naming:
+        physical-strategy: com.cdutcm3.winter.ms.base.dao.mysql.jpa.util.UnderscoreNameCustomizer
+    show-sql: true
+    #    database-platform: cn.wine.supplier.ms.base.extend.MySQL55WithoutForeignKeyDialect
+    properties:
+      hibernate:
+        jdbc:
+          batch_size: 1000
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/yellow?createDatabaseIfNotExist=true&useSSL=false&characterEncoding=utf-8&serverTimezone=UTC
+    username: root
+    password: master
+
+
+
+#下面这个配置是分布式锁配置  加上才会启用
+redisson:
+  address: redis://${spring.redis.host}:${spring.redis.port}
+  password: ${spring.redis.password}
+
+
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:7777//eureka/
+  instance:
+    prefer-ip-address: true
+  server:
+    eviction-interval-timer-in-ms: 1000
+hystrix:
+  command:
+    default:
+      execution:
+        timeout:
+          enabled: false
+ribbon:
+  ReadTimeout: 30000
+feign:
+  hystrix:
+    enabled: true
+
+
+
