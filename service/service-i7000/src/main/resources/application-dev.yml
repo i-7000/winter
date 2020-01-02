@@ -26,6 +26,13 @@ spring:
     username: root
     password: master
 
+winter:
+  zookeeper:
+    url: 127.0.0.1:2181
+
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+
 
 
 #下面这个配置是分布式锁配置  加上才会启用

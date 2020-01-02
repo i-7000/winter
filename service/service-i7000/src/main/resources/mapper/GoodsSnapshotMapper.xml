@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.cdutcm3.winter.ms.i7000.dao.mysql.mapper.GoodsSnapshotMapper">
+
+    <select
+            id="findByGoodsId"
+            parameterType="com.cdutcm3.winter.model.i7000.vo.req.GoodsSnapshotQuery"
+            resultType="com.cdutcm3.winter.model.i7000.vo.resp.GoodsSnapshotRespVO">
+        select
+               ygs.id as id,
+               ygs.goods_code as goodsCode,
+               ygs.goods_name as goodsName,
+               ygs.bar_code as barCode,
+               ygs.production_area_id as productionAreaId,
+               ygs.production_area_name as productionAreaName,
+               ygs.goods_register_info_id as goodsRegisterInfoId,
+               ygs.supplier_name as supplierName,
+               ygs.supplier_code as supplierCode
+        from y_goods_snapshot as ygs
+        where
+        ygs.deleted = 0
+        <if test="null != query.goodsName and query.goodsName != '' ">
+            and ygs.goods_name like concat('%',#{query.goodsName},'%')
+        </if>
+        <if test="null != query.productionAreaName and query.productionAreaName != '' ">
+            and ygs.production_area_name like concat('%',#{query.productionAreaName},'%')
+        </if>
+        <if test="null != query.supplierName and query.supplierName != '' ">
+            and ygs.supplier_name like concat('%',#{query.supplierName},'%')
+        </if>
+        <if test="null != query.goodsCode and query.goodsCode != '' ">
+            and ygs.goods_code = #{ query.goodsCode }
+        </if>
+        <if test="null != query.productionAreaId and query.productionAreaId != '' ">
+            and ygs.production_area_id = #{ query.productionAreaId }
+        </if>
+        <if test="null != query.supplierCode and query.supplierCode != '' ">
+            and ygs.supplier_code = #{ query.supplierCode }
+        </if>
+
+        order by ygs.create_timestamp desc
+    </select>
+
+</mapper>
