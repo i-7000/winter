@@ -5,6 +5,8 @@ import com.cdutcm3.winter.model.i7000.vo.resp.GoodsSnapshotRespVO;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 
+import java.util.List;
+
 /**
  * *****************************************************
  *
@@ -23,5 +25,5 @@ public interface GoodsSnapshotMapper {
      * @param query
      * @return
      */
-    GoodsSnapshotRespVO findByGoodsId(@Param("query") GoodsSnapshotQuery query);
+    List<GoodsSnapshotRespVO> findByGoodsId(@Param("query") GoodsSnapshotQuery query);
 }

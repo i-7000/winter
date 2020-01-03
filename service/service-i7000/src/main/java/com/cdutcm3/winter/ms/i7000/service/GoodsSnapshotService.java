@@ -4,6 +4,8 @@ import com.cdutcm3.winter.model.cat.vo.resp.CatRespVO;
 import com.cdutcm3.winter.model.i7000.vo.req.GoodsSnapshotQuery;
 import com.cdutcm3.winter.model.i7000.vo.resp.GoodsSnapshotRespVO;
 
+import java.util.List;
+
 /**
  * *****************************************************
  *
@@ -33,5 +35,5 @@ public interface GoodsSnapshotService {
      * @param query
      * @return
      */
-    GoodsSnapshotRespVO findGoodsSnapshot(GoodsSnapshotQuery query);
+    List<GoodsSnapshotRespVO> findGoodsSnapshot(GoodsSnapshotQuery query);
 }

@@ -14,6 +14,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import javax.annotation.Resource;
+import java.util.List;
 
 /**
  * *****************************************************
@@ -60,7 +61,7 @@ public class GoodsSnapshotServiceImpl extends AbstractBaseService implements Goo
     }
 
     @Override
-    public GoodsSnapshotRespVO findGoodsSnapshot(GoodsSnapshotQuery query) {
+    public List<GoodsSnapshotRespVO> findGoodsSnapshot(GoodsSnapshotQuery query) {
         return goodsSnapshotMapper.findByGoodsId(query);
     }
 }

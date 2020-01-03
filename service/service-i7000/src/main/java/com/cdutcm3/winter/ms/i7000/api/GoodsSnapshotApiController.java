@@ -12,6 +12,8 @@ import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
 
+import java.util.List;
+
 import static com.cdutcm3.winter.model.base.global.ApiTextHelper.BR;
 import static com.cdutcm3.winter.model.base.global.ApiTextHelper.DEVELOPER;
 
@@ -48,7 +50,7 @@ public class GoodsSnapshotApiController {
 
     @ApiOperation(value = "查询商品快照", notes = DEVELOPER + "7000" + BR + "查询商品快照")
     @PostMapping("/findGoodsSnapshot")
-    public GoodsSnapshotRespVO findGoodsSnapshot(@RequestBody GoodsSnapshotQuery query){
+    public List<GoodsSnapshotRespVO> findGoodsSnapshot(@RequestBody GoodsSnapshotQuery query){
         return goodsSnapshotService.findGoodsSnapshot(query);
     }
 }
